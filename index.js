@@ -140,25 +140,26 @@ this is multi- line comment
 //     countLabel.textContent = count;
 // }
 
-let count = 0;
 
-document.getElementById("increase").onclick = function(){
-    count += 1;
+// let count = 0;
 
-     document.getElementById("countlable").textContent = count;
-}
+// document.getElementById("increase").onclick = function(){
+//     count += 1;
 
-
-
-document.getElementById("decrease").onclick = function(){
-    count -= 1;
-
-     document.getElementById("countlable").textContent = count;
-}
+//      document.getElementById("countlable").textContent = count;
+// }
 
 
-document.getElementById("reset").onclick = function(){
-    count=0;
 
-     document.getElementById("countlable").textContent = count;
-}
+// document.getElementById("decrease").onclick = function(){
+//     count -= 1;
+
+//      document.getElementById("countlable").textContent = count;
+// }
+
+
+// document.getElementById("reset").onclick = function(){
+//     count=0;
+
+//      document.getElementById("countlable").textContent = count;
+// }
