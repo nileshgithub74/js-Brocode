@@ -1,4 +1,4 @@
-#countlable{
+/* #countlable{
      display: block; 
     text-align: center;
     font-size: 10em;
@@ -25,4 +25,25 @@
 .buttons:hover{
     background-color: rgb(24, 9, 224)
     ;
+} */
+
+
+
+/* --------------- To generate the random number -------- */
+
+body{
+    font-family: Verdana;
+    text-align: center;
 }
+#mybtn{
+    font-size: 5em;
+    padding:  3px  5px;
+    border-radius: 5px;
+
+}
+
+
+
+#mylable{
+    font-size: 3em;
+} 

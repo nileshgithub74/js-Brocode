@@ -163,3 +163,42 @@ this is multi- line comment
 
 //      document.getElementById("countlable").textContent = count;
 // }
+
+
+
+
+
+
+
+/// ----------Random Number generator -------
+
+// let randomNum  =Math.floor(  Math.random()* 6 )+ 1;
+// console.log(randomNum);
+// console.log(randomNum);
+
+
+// const min = 50;
+// const max = 100;
+
+// const  number = Math.floor(Math.random() * (max -min) + min);
+// console.log(number);
+// console.log(number);
+// console.log(number);console.log(number);
+
+
+
+
+const mybutton = document.getElementById("mybtn");
+const myLable = document.getElementById("mylable");
+
+const min = 1;
+const max = 6;
+
+
+mybutton.onclick= function(){
+let randomNumber = Math.floor(Math.random() * max) + min;
+
+myLable.textContent = randomNumber;
+
+}
+
