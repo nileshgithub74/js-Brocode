@@ -1,5 +1,5 @@
-console.log(`this is nilesh kumar`);
-console.log("i liked briyani");
+// console.log(`this is nilesh kumar`);
+// console.log("i liked briyani");
 
 
 // window.alert(`this is  an alert`);
@@ -188,17 +188,131 @@ this is multi- line comment
 
 
 
-const mybutton = document.getElementById("mybtn");
-const myLable = document.getElementById("mylable");
+// const mybutton = document.getElementById("mybtn");
+// const myLable = document.getElementById("mylable");
 
-const min = 1;
-const max = 6;
+// const min = 1;
+// const max = 6;
 
 
-mybutton.onclick= function(){
-let randomNumber = Math.floor(Math.random() * max) + min;
+// mybutton.onclick= function(){
+// let randomNumber = Math.floor(Math.random() * max) + min;
 
-myLable.textContent = randomNumber;
+// myLable.textContent = randomNumber;
 
+// }
+
+
+
+
+
+
+//  -------------checked property :  that determines thte checked state of an html checkbox and radio button element
+
+
+// const mycheckbox = document.getElementById("checkbox");
+
+// const visabtn= document.getElementById("visabtn");
+
+// const mastercard= document.getElementById("mastercard");
+
+// const paytm = document.getElementById("paytm");
+
+// const mysubmit= document.getElementById("mysubmit");
+
+
+// const subresult = document.getElementById("subresult");
+
+// const paymentresult = document.getElementById("paymentresult");
+
+// mysubmit.onclick= function(){
+//     if(mycheckbox.checked ) {
+//         subresult.textContent = `you are subscribed`;
+//     }else{
+//         subresult.textContent = `you are not subscribed`;
+//     }
+
+
+//     if(visabtn.checked){
+//         paymentresult.textContent = `you are paying with vissa`;
+//     }
+//     else if(mastercard.checked){
+//         paymentresult.textContent = `you are paying with master card`
+//     }
+//     else if(paytam.checked){
+//         paymentresult.textContent = `you are paying with paytm card`
+//     }
+//     else {
+//         paymentresult.textContent = `you dont have anything pay with cash`;
+//     }
+//  }
+
+
+
+
+
+
+//--------ternary operator : 
+
+// let age = 21;
+
+// let message = age >= 18 ? "you are an adult" :  "you are young";
+
+// console.log(message);
+
+
+// let time = 16;
+
+// let greeting = time < 12 ? ` it is morning`: ` it is afternoon`;
+
+// console.log(greeting);
+
+
+
+// let isStudent = true;
+
+// let message = isStudent ? ` you are student` : `you are not student`;
+// console.log(message);
+
+
+// let purchaseAmount = 123;
+
+// let discount = purchaseAmount >= 100 ? 10 : 0;
+// console.log(`your total is ${purchaseAmount- purchaseAmount* (discount/100)}`);
+
+
+
+
+
+
+// -----------switch statment -------------
+let days = 4;
+let message;
+
+switch(days) {
+    case 1: 
+        message = "Today is Sunday";
+        break;
+    case 2: 
+        message = "Today is Monday";
+        break;
+    case 3: 
+        message = "Today is Tuesday";
+        break;
+    case 4: 
+        message = "Today is Wednesday";
+        break;
+    case 5:
+        message = "Today is Thursday";
+        break;
+    case 6: 
+        message = "Today is Friday";
+        break;
+    case 7:
+        message = "Today is Saturday";
+        break;
+    default:
+        message = "Please enter a valid day.";
 }
 
+console.log(message);

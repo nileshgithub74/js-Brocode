@@ -30,7 +30,7 @@
 
 
 /* --------------- To generate the random number -------- */
-
+/* 
 body{
     font-family: Verdana;
     text-align: center;
@@ -46,4 +46,22 @@ body{
 
 #mylable{
     font-size: 3em;
-} 
+}  */
+
+
+
+/* ----------------------checked property=---------------- */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#mysubmit{
+    font-size: 1.2em;
+}
+#mydiv1{
+    font-size: 1em;
+    margin: 2px;
+    padding: 5px;
+}
