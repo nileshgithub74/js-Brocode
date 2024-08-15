@@ -286,33 +286,97 @@ this is multi- line comment
 
 
 // -----------switch statment -------------
-let days = 4;
-let message;
+// let days = 4;
+// let message;
 
-switch(days) {
-    case 1: 
-        message = "Today is Sunday";
-        break;
-    case 2: 
-        message = "Today is Monday";
-        break;
-    case 3: 
-        message = "Today is Tuesday";
-        break;
-    case 4: 
-        message = "Today is Wednesday";
-        break;
-    case 5:
-        message = "Today is Thursday";
-        break;
-    case 6: 
-        message = "Today is Friday";
-        break;
-    case 7:
-        message = "Today is Saturday";
-        break;
-    default:
-        message = "Please enter a valid day.";
+// switch(days) {
+//     case 1: 
+//         message = "Today is Sunday";
+//         break;
+//     case 2: 
+//         message = "Today is Monday";
+//         break;
+//     case 3: 
+//         message = "Today is Tuesday";
+//         break;
+//     case 4: 
+//         message = "Today is Wednesday";
+//         break;
+//     case 5:
+//         message = "Today is Thursday";
+//         break;
+//     case 6: 
+//         message = "Today is Friday";
+//         break;
+//     case 7:
+//         message = "Today is Saturday";
+//         break;
+//     default:
+//         message = "Please enter a valid day.";
+// }
+
+// console.log(message);
+
+
+
+// method chaining :  callling one method after annoter is one continous line of code
+
+
+// let username = window.prompt(`Enter the your username`);
+
+// username = username.trim();
+// let letter = username.charAt(0);
+// letter = letter.toUpperCase();
+
+
+// let extraChars = username.slice(1);
+// extraChars = extraChars.toLowerCase();
+// username =letter + extraChars;
+// console.log(username);
+
+
+// method chaining :
+
+
+
+       
+// username = username.charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+
+// console.log(username);
+
+
+
+
+
+/////------------- Temperature Convertor-----------
+
+
+const textbox = document.getElementById("textbox");
+const tofahrenheit = document.getElementById("tofahrenheit");
+const toCelsius = document.getElementById("toCelsius");
+
+const result = document.getElementById("result");
+let temp;
+
+
+function convert(){
+    if(tofahrenheit.checked){
+        temp = Number(textbox.value);
+        temp = temp *   9/5+32;
+        result.textContent=temp.toFixed(2) +   "°F";
+        
+
+
+    }else if(toCelsius.checked){
+        temp = Number(textbox.value);
+        temp = (temp -32) * (5/9);
+        result.textContent=temp.toFixed(2) +   "°C";
+
+
+    }else{
+        result.textContent=`select the unit`;
+    }
+
+
 }
 
-console.log(message);

@@ -51,7 +51,7 @@ body{
 
 
 /* ----------------------checked property=---------------- */
-
+/* 
 body{
     margin: 0;
     padding: 0;
@@ -64,4 +64,69 @@ body{
     font-size: 1em;
     margin: 2px;
     padding: 5px;
+} */
+
+
+
+
+/* // temperator convertor  */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(234, 234, 246);
+
+
+}
+
+h1{
+    color: rgb(96, 96, 234);
+}
+form{
+    background-color: rgb(195, 195, 194);
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+    font-size: 1em;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow:  5px 5px  15px rgb(185, 185, 185);
+}
+
+#textbox{
+ width: 130px;
+ text-align: center;
+ font-size: 2em;
+ border: 2px sloid rgb(33, 31, 31);
+ margin-bottom : 14px;
+
+
+
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: rgb(236, 64, 64);
+    color: white;
+    border: none;
+
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+
+
+}
+button:hover{
+    background-color: rgb(65, 22, 196);
+}
+#result{
+    font-size: 2em;
+    font-weight: bold;
+    
 }
