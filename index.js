@@ -380,3 +380,123 @@ this is multi- line comment
 
 // }
 
+
+//-----------------SPread Opertor : allow the iteratable such as an array or string to be expanded into separate element
+
+
+
+
+// let username = "nilesh kumar";
+// let letters = [...username].join("- ");
+// console.log(letters);
+
+
+
+
+//----- Rest parameters : (...rest) allow a function work with a variab;e number of arguments by bundling them into an array.
+
+
+// spread = expand an array into separate Element
+// rest -- bundles separate elements into an array
+
+
+// const food1 = "pizaa";
+// const food2 = " mango";
+// const food3 = " hotdog";
+// const food4 = " burger";
+
+
+// const food = [food1, food2, food3, food4];
+
+// let result = [...food];
+
+// console.log(result);
+
+
+
+// const food1 = "pizza";
+// const food2 = "mango";
+// const food3 = "hotdog";
+// const food4 = "burger";
+
+// // Function to log the food items
+// function result(...food) {
+//     console.log(food);
+// }
+
+// // Call the function with food items
+// result(food1, food2, food3, food4);
+
+
+
+
+// ----------callback :::
+    //  a function that are passes as agrument to another function .
+
+
+    // function hello(callback){
+    //     console.log("Helllo");
+    //     callback();
+
+    // }
+    // function leave(callback){
+    //     console.log("leave");
+    //     callback();
+    // }
+
+    // function bye(){
+    //     console.log("Bye");
+
+    // }
+
+    // hello(bye);
+    // leave(bye);
+
+    // function sum(callback, x, y) {
+    //     let result = x + y;
+    //     callback(result);
+    // }
+    
+    // function displayResult(result) {
+    //     console.log(result);
+    // }
+    
+    // // Call the sum function with the correct order of arguments
+    // sum(displayResult, 3, 4);
+    
+
+
+    //----------For each method;;
+
+
+//     let numbers = [1,2,3,4,5];
+
+//     // numbers.forEach(display);
+//     // numbers.forEach(doubles);
+//     numbers.forEach(triples);
+//     // numbers.forEach(square);
+
+    
+
+
+
+// function display(element){
+//     console.log(element);
+// }
+
+// function doubles(element, index, array){
+//     array[index] = element *2;
+
+// }
+// function square(element, array, index){
+//     array[index] = element* element;
+// }
+
+// function triples(element, array, index){
+//     array[index] = element * 3;
+// }
+
+// console.log(numbers);
+
+
+
