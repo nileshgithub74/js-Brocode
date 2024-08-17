@@ -4,8 +4,27 @@
 // greet();
 
 
-const message = ()=>{
-    console.log("heyy, today is holiday");
-}
+// const message = ()=>{
+//     console.log("heyy, today is holiday");
+// }
 
-message();
+// message();
+
+
+
+// const info = (names,age)=>{
+//     console.log(`hello, this is ${names}`);
+// console.log(`age :${age} `);
+// }
+// info("nilesh", 21);
+
+
+
+
+// setTimeout(function(){
+//     console.log("nilesh");
+// } ,4000)
+
+// setTimeout( ()=>{
+//     console.log("Nilesh kumar");
+// },3000);
