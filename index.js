@@ -500,3 +500,139 @@ this is multi- line comment
 
 
 
+//------------------------------------- map : accepts a callback and aaplies that function to each elememt of an array, then return a new array; its doesnt change the value of the array it .
+
+
+
+
+
+
+// const numbers = [1,3,4,5,6];
+
+
+// // const squares = numbers.map(square);
+// // console.log(squares);
+
+
+// const cubes = numbers.map(square);
+// console.log(cubes);
+
+
+
+// function square(element){
+//     return Math.pow(element,2);
+// }
+
+
+// function cube(element){
+//     return Math.pow(element,3);
+// }
+
+
+
+// const students = ["Dinesh", "suresh", "tony","tom"];
+
+// // const studentsUpper = students.map(upppercase);
+// // console.log(studentsUpper)
+// ;
+
+
+
+// // function upppercase(element){
+// //     return  element.toUpperCase();
+// // }
+
+// function lowercase(element){
+//     return  element.toLowerCase();
+// }
+
+
+// const studentsLower = students.map(lowercase);
+// console.log(studentsLower);
+
+// // console.log(students)/
+
+
+
+// const date = ["2024-01-10", "2033-10-23","2043-04-5"];
+
+// const result = date.map(formatDates);
+// console.log(result);
+
+// function formatDates(element){
+//     const parts = element.split("-");
+//     return `${parts[1] } / ${parts[2] }/${parts[0] }`;
+// }
+
+
+
+
+//--------------------filter() : creates a new array by filltering out elements.
+
+
+
+let numbers = [1,3,4,5,6,7,9,8];
+
+// let nums = numbers.filter(isEven);
+// console.log(nums);
+
+
+// let nums = numbers.filter(isOdd);
+// console.log(nums);
+
+// function isEven(element){
+//     return element%2 ==0;
+// }
+
+
+// function isOdd(element){
+//     return element%2 !=0;
+// }
+
+
+// const ages = [10,24,43,44,34,43,33,23,32];
+// const adults = ages.filter(isAdult);
+// console.log(adults);
+
+
+// function isAdult(element){
+//     return element>=18;
+// }
+
+
+
+
+
+
+
+
+
+
+// //---------reduce() : reduce the elements of an array to a single vlaue;
+
+// const prices = [5,10,12,14,15,30];
+
+// const total = prices.reduce(sum);
+
+
+// console.log(total);
+
+
+// function sum(accumulator, element){
+//     return accumulator+ element;
+// }
+
+
+
+// const prices = [5, 10, 12, 14, 15, 30];
+
+// function calculateSum(array) {
+//     let total = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         total += array[i];
+//     }
+//     console.log(total);
+// }
+
+// calculateSum(prices);
+
