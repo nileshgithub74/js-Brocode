@@ -637,11 +637,32 @@ let numbers = [1,3,4,5,6,7,9,8];
 // calculateSum(prices);
 
 
-const myHeading = document.getElementById("myH1");
-myHeading.style.backgroundColor = "yellow";
-myHeading.style.textAlign= "center";
+// const myHeading = document.getElementById("myH1");
+// myHeading.style.backgroundColor = "yellow";
+// myHeading.style.textAlign= "center";
 
 
 // const fruit = document.getElementsByClassName("fruits");
 
 // console.log(fruit);
+
+// const h4Elements = document.getElementsByTagName("h4");
+
+// // console.log(h4Element);
+
+
+// for(let h4Element of h4Elements){
+//     h4Element.style.backgroundColor = "yellow";
+// }
+
+
+
+
+//Dom Navigation + the process of navigatinf through the  structure of an HTml document using javascipt.
+
+
+//-----------------firstElementChild------------
+
+const element = document.getElementById("fruits");
+const firstchild = element.firstElementChild;
+firstchild.style.background = "yellow";
