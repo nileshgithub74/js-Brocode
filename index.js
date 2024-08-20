@@ -636,3 +636,12 @@ let numbers = [1,3,4,5,6,7,9,8];
 
 // calculateSum(prices);
 
+
+const myHeading = document.getElementById("myH1");
+myHeading.style.backgroundColor = "yellow";
+myHeading.style.textAlign= "center";
+
+
+// const fruit = document.getElementsByClassName("fruits");
+
+// console.log(fruit);
