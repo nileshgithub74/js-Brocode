@@ -2,21 +2,21 @@
 
 
 
-// try{
+try{
     
-// console.log(x);
+console.log(x);
 
-// }
-// catch(error){
-//     console.error(error);
+}
+catch(error){
+    console.error(error);
 
-// }
-// finally{
-//     console.log("always workks");
+}
+finally{
+    console.log("always workks");
 
 
     
     
-// }
-// console.log("You have reached the end");
+}
+console.log("You have reached the end");
 
