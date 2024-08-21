@@ -663,6 +663,82 @@ let numbers = [1,3,4,5,6,7,9,8];
 
 //-----------------firstElementChild------------
 
-const element = document.getElementById("fruits");
-const firstchild = element.firstElementChild;
-firstchild.style.background = "yellow";
+// const element = document.getElementById("fruits");
+// const firstchild = element.firstElementChild;
+// firstchild.style.background = "yellow";
+
+
+
+///////////-----------lastElementChild
+
+
+// const element = document.getElementById("fruits");
+// const lastchild = element.lastElementChild;
+// lastchild.style.background = "yellow";
+
+
+// const ulelement = document.querySelectorAll("ul");
+// ulelement.forEach(ulelement =>{
+//     const lastchild = ulelement.lastElementChild;
+//     lastchild.style.background = "yellow";
+// });
+
+
+
+///---------------------------nextElementsibling
+
+// const element = document.getElementById("apple");
+// const nextSibling = element.nextElementSibling;
+// nextSibling.style.backgroundColor ="Red";
+
+
+
+//------------------prevoiusElementSibling
+
+
+// const element = document.getElementById("Orange");
+// const preSibling = element.previousElementSibling;
+// preSibling.style.backgroundColor ="Red";
+
+
+
+//--------------------parentElement
+
+// const element = document.getElementById("Orange");
+// const parent = element.parentElement;
+// parent.style.backgroundColor ="green";
+
+//---------------childElement
+
+// const element = document.getElementById("fruits");
+// const children = element.children;
+
+
+// Array.from(children).forEach(child => {
+//     child.style.backgroundColor = "grey";
+// })
+
+
+
+// *******************************How to add & change Html
+
+
+
+// step 1 :  CREATE THE ELEMENT
+
+const newH1 = document.createElement("h1");
+newH1.id= "myH1";
+newH1.style.color = "red";
+newH1.style.textAlign = "center";
+
+// STEP 2 : ADD ATTRIBUTES OR PROPERTIES
+
+newH1.textContent = "I liked Briyani";
+
+
+// STEP 3 : APPEND ELEMENT TO DOM;
+
+// document.body.append(newH1);
+
+// document.body.prepend(newH1);
+document.getElementById('box2').append(newH1);

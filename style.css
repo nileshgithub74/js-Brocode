@@ -130,3 +130,14 @@ button:hover{
     font-weight: bold;
     
 } */
+
+
+
+
+
+.box{
+    border: 3px solid black;
+    width: 100%;
+    height: 100px;
+
+}
