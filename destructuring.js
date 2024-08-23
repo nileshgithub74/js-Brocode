@@ -6,7 +6,8 @@
 
 
 
-//**************swap tow element */
+
+//**************swap two element */
 // let a = 1;
 // let b = 2;
 
@@ -47,7 +48,7 @@ const person1={
 }
 
 const person2={
-    firstname : "nile",
+    firstname : "nilesh",
     lastName : "kumar",
     age : 30,
     
@@ -55,10 +56,75 @@ const person2={
 
 
 
+
+
+
 const {firstname,lastName,age,job} = person2;
 console.log(firstname);
 console.log(lastName);
 console.log(age);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
