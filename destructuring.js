@@ -40,29 +40,29 @@
 
 // extracting the values from the Object
 
-const person1={
-    firstname : "nilesh",
-    lastName : "kumar",
-    age : 30,
-    job : 'student'
-}
+// const person1={
+//     firstname : "nilesh",
+//     lastName : "kumar",
+//     age : 30,
+//     job : 'student'
+// }
 
-const person2={
-    firstname : "nilesh",
-    lastName : "kumar",
-    age : 30,
+// const person2={
+//     firstname : "nilesh",
+//     lastName : "kumar",
+//     age : 30,
     
-}
+// }
 
 
 
 
 
 
-const {firstname,lastName,age,job} = person2;
-console.log(firstname);
-console.log(lastName);
-console.log(age);
+// const {firstname,lastName,age,job} = person2;
+// console.log(firstname);
+// console.log(lastName);
+// console.log(age);
 
 
 
