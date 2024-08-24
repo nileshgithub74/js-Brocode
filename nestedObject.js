@@ -16,14 +16,15 @@
 
 
 
-class Person{
-    constructor(name, age, ...address){
-        this.name = name;
-        this.age = age;
-        this.address = new Adress(...address);
+// // class Person{
+// //     constructor(name, age, ...address){
+// //         this.name = name;
+// //         this.age = age;
+// //         this.address = new Adress(...address);
 
-    }
-}
+// //     }
+// // }
+
 class Adress{
     constructor(street, country,city){
         this.country = country;
