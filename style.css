@@ -141,9 +141,9 @@ button:hover{
 
 } */
 
-
+/* 
 #mybox{
-    /* font-weight: bold; */
+     font-weight: bold; 
     font-size: 70px;
     background-color: lightgreen;
     height: 300px;
@@ -156,5 +156,12 @@ button:hover{
 
 #mybtn{
     font-size: 30px;
+
+} */
+
+
+#mybtn{
+    font-size: 2rem;
+
 
 }
